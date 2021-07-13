@@ -1,0 +1,15 @@
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\bin\Debug\net5.0\DBLib.deps.json
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\bin\Debug\net5.0\DBLib.runtimeconfig.json
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\bin\Debug\net5.0\DBLib.runtimeconfig.dev.json
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\bin\Debug\net5.0\DBLib.dll
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\bin\Debug\net5.0\ref\DBLib.dll
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\bin\Debug\net5.0\DBLib.pdb
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.AssemblyInfoInputs.cache
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.AssemblyInfo.cs
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.csproj.CoreCompileInputs.cache
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.dll
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\ref\DBLib.dll
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.pdb
+C:\Users\etigh\Source\Repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.genruntimeconfig.cache
+C:\Users\etigh\source\repos\VehicleSearch\DBLib\obj\Debug\net5.0\DBLib.csproj.AssemblyReference.cache

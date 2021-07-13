@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=498eb6a7_002D8fbb_002D4ada_002Da82a_002D9c758349bd1b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_Manager_GetVehicles_noContext_FAILS" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7AAA0B2E-3908-48C3-8271-2A0837B7850D::net5.0::Tests.Tests.Test_Manager_GetVehicles_noContext_FAILS&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7AAA0B2E-3908-48C3-8271-2A0837B7850D::net5.0::Tests.Tests.Test_Manager_GetVehicles_hasContext_PASS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    th {
+        margin: 20px;
+ 
+        background-color: cadetblue;
+        color: antiquewhite
+
+    }
+    td {
+        margin: 20px;
+        justify-content: center;
+        background-color: antiquewhite;
+        color: black;
+        align-items: center;
+    }
+}
+
+.scroll {
+    margin: 2%;
+}
+button {
+    margin-left: 2%;
+}
+p {
+    margin-left: 2%;
+    font-weight: bold;
+}
+.serverError {
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+.loading {
+    align-items: center;
+    margin: 20px;
+
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DBLib": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\etigh\\source\\repos\\VehicleSearch\\DBLib"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+  <div class="example-table-container" fxLayout="row" fxLayoutAlign="space-between">
+    <p>Press button to see your results:</p>
+    <button mat-raised-button (click)="searchVehicles()">Search</button>
+    <div *ngIf="isLoading" class="loading">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+    </div>
+  </div>
+  
+
+  <div *ngIf="serverError" class="serverError">
+    <p>Whoops. Please be sure you have started the API server!</p>
+  </div>
+
+  <div *ngIf="!serverError && !isLoading" class="scroll" >
+    <table mat-table [dataSource]="vehicles" class="example-table">
+  
+      // Make
+      <ng-container matColumnDef="make">
+        <th mat-header-cell *matHeaderCellDef>Make</th>
+        <td mat-cell *matCellDef="let row">{{row.make}}</td>
+      </ng-container>
+      &nbsp;
+      // Year
+      <ng-container matColumnDef="year">
+        <th mat-header-cell *matHeaderCellDef>Year</th>
+        <td mat-cell *matCellDef="let row">{{row.year}}</td>
+      </ng-container>
+      &nbsp;
+      // Color
+      <ng-container matColumnDef="color">
+        <th mat-header-cell *matHeaderCellDef>Color</th>
+        <td mat-cell *matCellDef="let row">{{row.color}}</td>
+      </ng-container>
+      &nbsp;
+      // Price
+      <ng-container matColumnDef="price">
+        <th mat-header-cell *matHeaderCellDef>Price</th>
+        <td mat-cell *matCellDef="let row">{{row.price | currency }}</td>
+      </ng-container>
+      &nbsp;
+      // sunroof
+      <ng-container matColumnDef="hasSunroof" >
+        <th mat-header-cell *matHeaderCellDef>has Sunroof</th>
+        <td mat-cell *matCellDef="let row">{{row.hasSunroof}}</td>
+      </ng-container>
+      &nbsp;
+      // isFourWheelDrive
+      <ng-container matColumnDef="isFourWheelDrive" >
+        <th mat-header-cell *matHeaderCellDef>has FourWheelDrive</th>
+        <td mat-cell *matCellDef="let row">{{row.isFourWheelDrive}}</td>
+      </ng-container>
+      &nbsp;
+      // hasLowMiles
+      <ng-container matColumnDef="hasLowMiles" >
+        <th mat-header-cell *matHeaderCellDef>has Low Miles</th>
+        <td mat-cell *matCellDef="let row">{{row.hasLowMiles}}</td>
+      </ng-container>
+      &nbsp;
+      // hasPowerWindows
+      <ng-container matColumnDef="hasPowerWindows" >
+        <th mat-header-cell *matHeaderCellDef>has Power Windows</th>
+        <td mat-cell *matCellDef="let row">{{row.hasPowerWindows}}</td>
+      </ng-container>
+      &nbsp;
+      // hasNavigation
+      <ng-container matColumnDef="hasNavigation" >
+        <th mat-header-cell *matHeaderCellDef>has Navigation</th>
+        <td mat-cell *matCellDef="let row">{{row.hasNavigation}}</td>
+      </ng-container>
+      &nbsp;
+      // hasHeatedSeats
+      <ng-container matColumnDef="hasHeatedSeats" >
+        <th mat-header-cell *matHeaderCellDef>has Heated Seats</th>
+        <td mat-cell *matCellDef="let row">{{row.hasHeatedSeats}}</td>
+      </ng-container>
+      &nbsp;
+
+      <tr mat-header-row *matHeaderRowDef = "displayedColumns" ></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+
+    
+  </div>

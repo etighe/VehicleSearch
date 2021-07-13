@@ -1,0 +1,64 @@
+<div>
+    <p>Please choose your vehicle criteria: <br /><em>&nbsp;["Don't care" is removed from search criteria]</em></p>
+    <button mat-raised-button (click)="resetSelection()">Reset Selection</button>
+</div>
+<br/>
+<div fxLayout="column" fxLayoutAlign="space-between">
+
+    <div fxLayout="row" class="criteria">
+        <div>Sunroof</div>
+        <mat-radio-group name="sunRoofChoice" (change)="changeSunroof($event)" [(ngModel)]="sunRoofSelection">
+            <mat-radio-button value="true">Yes</mat-radio-button>
+            <mat-radio-button value="false">No</mat-radio-button>
+            <mat-radio-button value="null">Don't care</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="space-between" class="criteria">
+        <div>Four Wheel Drive</div>
+        <mat-radio-group (change)="changeFourWheelDrive($event)" [(ngModel)]="fwdSelection">
+            <mat-radio-button value="true">Yes</mat-radio-button>
+            <mat-radio-button value="false">No</mat-radio-button>
+            <mat-radio-button value="null">Don't care</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="space-between" class="criteria">
+        <div>Low Miles</div>
+        <div>
+            <mat-radio-group (change)="changeLowMiles($event)" [(ngModel)]="lowMilesSelection">
+                <mat-radio-button value="true">Yes</mat-radio-button>
+                <mat-radio-button value="false">No</mat-radio-button>
+                <mat-radio-button value="null">Don't care</mat-radio-button>
+            </mat-radio-group>
+        </div>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="space-between" class="criteria">
+        <div>Power Windows</div>
+        <mat-radio-group (change)="changePowerWindows($event)" [(ngModel)]="powerWindowsSelection">
+            <mat-radio-button value="true">Yes</mat-radio-button>
+            <mat-radio-button value="false">No</mat-radio-button>
+            <mat-radio-button value="null">Don't care</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="space-between" class="criteria">
+        <div>Navigation</div>
+        <mat-radio-group (change)="changeNavigation($event)" [(ngModel)]="navigationSelection">
+            <mat-radio-button value="true">Yes</mat-radio-button>
+            <mat-radio-button value="false">No</mat-radio-button>
+            <mat-radio-button value="null">Don't care</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="space-between" class="criteria">
+        <div>Heated Seats</div>
+        <mat-radio-group (change)="changeHeatedSeats($event)" [(ngModel)]="heatedSeatsSelection">
+            <mat-radio-button value="true">Yes</mat-radio-button>
+            <mat-radio-button value="false">No</mat-radio-button>
+            <mat-radio-button value="null">Don't care</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+</div>
